@@ -1,11 +1,16 @@
-import Header from '@/components/ui/header';
+import AboutExplain from '@/components/about-explain';
+import Section from '@/components/ui/section';
+import Wrapper from '@/components/ui/wrapper';
 import React from 'react';
 
 export default function Page() {
   return (
     <>
-      <div>page</div>
-      <Header />
+      <Section>
+        <Wrapper>
+          <AboutExplain />
+        </Wrapper>
+      </Section>
     </>
   );
 }
