@@ -26,11 +26,11 @@ const navbar: {
   },
   {
     title: 'PRODUCTS',
-    href: '/',
+    href: '/products',
     children: [
       {
-        title: 'Product 1',
-        href: '/',
+        title: 'Flour Mill',
+        href: '/products/flour-mill',
       },
     ],
   },
@@ -47,15 +47,6 @@ const navbar: {
 export default function NavBar() {
   return (
     <>
-      {/* <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d439466.7123397583!2d76.386203!3d30.624552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39101a5daf098067%3A0xd143c949a0f1b569!2sField%20Pump%20Pvt.%20Ltd.!5e0!3m2!1sen!2sus!4v1723828737759!5m2!1sen!2sus"
-        width="600"
-        height="450"
-        style={{ border: '0' }}
-        // allowfullscreen=""
-        loading="lazy"
-        // referrerpolicy="no-referrer-when-downgrade"
-      ></iframe> */}
       <NavigationMenu>
         <NavigationMenuList>
           {navbar.map(item =>

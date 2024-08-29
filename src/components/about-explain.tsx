@@ -3,13 +3,16 @@ import Description from './description';
 import CardImg from './card-img';
 import { aboutImg } from '@/lib/data';
 import { image01, image02, image03, image04 } from '@/lib/images';
+import { Button } from './ui/button';
+import LeftTitle from './ui/left-title';
 
 export default function AboutExplain() {
   return (
     <>
-      <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-        <div className="w-2/4 ">
-          <Description title="About Us">
+      <div className="flex flex-col sm:flex-row items-center  justify-between gap-8">
+        <div className="w-1/2 flex ">
+          <Description>
+            <LeftTitle title="About Us" />
             <div className="flex gap-4 flex-col my-4 text-base">
               <p>
                 The Thukral Group of Companies FIELDMARSHAL Punjab was
@@ -35,14 +38,22 @@ export default function AboutExplain() {
                 started manufacturing Agriculture Submersible Water Pumpsets.
               </p>
             </div>
+            <div>
+              <Button
+                variant="outline"
+                className="text-white text-lg bg-[#D80000] px-9 py-6 hover:bg-[#D80000] hover:text-white"
+              >
+                Read More...
+              </Button>
+            </div>
           </Description>
         </div>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="">
           {/* {aboutImg.map((aboutsImg, index) => (
             <CardImg key={index} imgSrc={aboutsImg.imgSrc} />
           ))} */}
 
-          <div className="grid gap-4 grid-cols-1 lg:grid-cols-2">
+          <div className="grid gap-4  lg:grid-cols-2">
             <div>
               <CardImg imgSrc={image01} />
             </div>

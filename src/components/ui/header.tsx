@@ -12,10 +12,10 @@ export default function Header() {
   return (
     <>
       <header className="relative">
-        <div className="inset-0 bg-black z-40 opacity-10 shadow-lg  w-full fixed h-32"></div>
-        <HeroImg />
+        {/* <div className="inset-0 bg-black z-40 opacity-10 shadow-lg  w-full fixed h-32"></div> */}
+
         <Wrapper>
-          <div className="fixed left-20 right-20 transition-all duration-0 top-0 z-50">
+          <div className="  duration-0 top-0 z-50">
             <nav className="flex justify-between items-center py-7 ">
               <Logo imgSrc={logo} />
 
@@ -24,6 +24,7 @@ export default function Header() {
           </div>
         </Wrapper>
       </header>
+      <HeroImg />
     </>
   );
 }

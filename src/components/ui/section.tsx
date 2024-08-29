@@ -8,7 +8,5 @@ export default function Section({
   children: ReactNode;
   className?: string;
 }) {
-  return (
-    <section className={cn('py-[4.375rem]', className)}>{children}</section>
-  );
+  return <section className={cn('py-[4rem]', className)}>{children}</section>;
 }
