@@ -45,6 +45,41 @@ import iraIcon3 from '../../public/assets/images/product/flour-mill/ira-img/ira_
 import iraIcon4 from '../../public/assets/images/product/flour-mill/ira-img/ira_icon_04.png';
 import iraIcon5 from '../../public/assets/images/product/flour-mill/ira-img/ira_icon_05.png';
 import colorStrigBg from '../../public/assets/images/color-strip-bg.png';
+import aaharIcon1 from '../../public/assets/images/product/flour-mill/aahar-img/aahar_icon_01.png';
+import aaharIcon2 from '../../public/assets/images/product/flour-mill/aahar-img/aahar_icon_02.png';
+import aaharIcon3 from '../../public/assets/images/product/flour-mill/aahar-img/aahar_icon_03.png';
+import aaharIcon4 from '../../public/assets/images/product/flour-mill/aahar-img/aahar_icon_04.png';
+import aaharIcon5 from '../../public/assets/images/product/flour-mill/aahar-img/aahar_icon_05.png';
+import aaharIcon6 from '../../public/assets/images/product/flour-mill/aahar-img/aahar_icon_06.png';
+import aaharIcon7 from '../../public/assets/images/product/flour-mill/aahar-img/aahar_icon_07.png';
+import aaharIcon8 from '../../public/assets/images/product/flour-mill/aahar-img/aahar_icon_08.png';
+import aaharLogo from '../../public/assets/images/product/flour-mill/aahar-img/aahar_logo.png';
+import aaharProductFlora from '../../public/assets/images/product/flour-mill/aahar-img/aahar_product_flora.png';
+import aaharProductStrawberry from '../../public/assets/images/product/flour-mill/aahar-img/aahar_product_grey_strawberry.png';
+import aaharProductSunflower from '../../public/assets/images/product/flour-mill/aahar-img/aahar_product_sunflower.png';
+import shaktiLogo from '../../public/assets/images/product/flour-mill/shakti/shakti_logo.png';
+import shaktiIcon1 from '../../public/assets/images/product/flour-mill/shakti/shakti_icon_01.png';
+import shaktiIcon2 from '../../public/assets/images/product/flour-mill/shakti/shakti_icon_02.png';
+import shaktiIcon3 from '../../public/assets/images/product/flour-mill/shakti/shakti_icon_03.png';
+import shaktiIcon4 from '../../public/assets/images/product/flour-mill/shakti/shakti_icon_04.png';
+import shaktiIcon5 from '../../public/assets/images/product/flour-mill/shakti/shakti_icon_05.png';
+import shaktiIcon6 from '../../public/assets/images/product/flour-mill/shakti/shakti_icon_06.png';
+import shaktiIcon7 from '../../public/assets/images/product/flour-mill/shakti/shakti_icon_07.png';
+import shaktiIcon8 from '../../public/assets/images/product/flour-mill/shakti/shakti_icon_08.png';
+import shaktiProductStrawnery from '../../public/assets/images/product/flour-mill/shakti/shakti_product-red-strawnerry.png';
+import shaktiProductBeans from '../../public/assets/images/product/flour-mill/shakti/shakti_product_coffee_beans.png';
+import shaktiProductChandan from '../../public/assets/images/product/flour-mill/shakti/shakti_product_chandan.png';
+import santushtiLogo from '../../public/assets/images/product/flour-mill/santushti/santushti_logo.png';
+import santushtiProductWood from '../../public/assets/images/product/flour-mill/santushti/santushti_product_wood.png';
+import santushtiProductDiamond from '../../public/assets/images/product/flour-mill/santushti/santushti_product_diamond.png';
+import santushtiProductEmbroidered from '../../public/assets/images/product/flour-mill/santushti/santushti_product_embroidered.png';
+import grindingCapacityImg from '../../public/assets/images/product/flour-mill/grinding_capacity-image.png';
+import annapurnaLogo from '../../public/assets/images/product/flour-mill/annapurna/annapurna_logo.png';
+import annapurnaProductWave from '../../public/assets/images/product/flour-mill/annapurna/annapurna_product.png';
+import annapurnaIcon1 from '../../public/assets/images/product/flour-mill/annapurna/annapurna_icon_01.png';
+import annapurnaIcon2 from '../../public/assets/images/product/flour-mill/annapurna/annapurna_icon_02.png';
+import annapurnaIcon3 from '../../public/assets/images/product/flour-mill/annapurna/annapurna_icon_03.png';
+import annapurnaIcon4 from '../../public/assets/images/product/flour-mill/annapurna/annapurna_icon_04.png';
 
 export {
   logo,
@@ -94,4 +129,39 @@ export {
   iraProductFeather,
   iraProductFruits,
   colorStrigBg,
+  aaharIcon1,
+  aaharIcon2,
+  aaharIcon3,
+  aaharIcon4,
+  aaharIcon5,
+  aaharIcon6,
+  aaharIcon7,
+  aaharIcon8,
+  aaharLogo,
+  aaharProductFlora,
+  aaharProductStrawberry,
+  aaharProductSunflower,
+  shaktiLogo,
+  shaktiIcon1,
+  shaktiIcon2,
+  shaktiIcon3,
+  shaktiIcon4,
+  shaktiIcon5,
+  shaktiIcon6,
+  shaktiIcon7,
+  shaktiIcon8,
+  shaktiProductStrawnery,
+  shaktiProductBeans,
+  shaktiProductChandan,
+  santushtiLogo,
+  santushtiProductWood,
+  santushtiProductDiamond,
+  santushtiProductEmbroidered,
+  grindingCapacityImg,
+  annapurnaLogo,
+  annapurnaProductWave,
+  annapurnaIcon1,
+  annapurnaIcon2,
+  annapurnaIcon3,
+  annapurnaIcon4,
 };

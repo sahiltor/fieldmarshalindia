@@ -6,6 +6,7 @@ import React from 'react';
 import VisionMissionExplain from '../components/vision-mission-explain';
 import ApplicationExplain from '@/components/application-explain';
 import ProductImg from '@/components/ui/product-img';
+import FooterHome from '@/components/ui/footer-home';
 
 export default function Page() {
   return (
@@ -36,6 +37,7 @@ export default function Page() {
           <ApplicationExplain />
         </Wrapper>
       </Section>
+      <FooterHome />
     </>
   );
 }

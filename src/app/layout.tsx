@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Lato } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/ui/header';
-import Footer from '@/components/ui/footer';
+import Copyright from '@/components/ui/copyright';
 
 const lato = Lato({
   subsets: ['latin'],
@@ -26,7 +26,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
-        <Footer />
+        <Copyright />
       </body>
     </html>
   );

@@ -15,7 +15,7 @@ export default function FlourProductImg({
     <>
       <div>
         <div className="flex flex-col justify-center items-center  ">
-          <Image src={imgSrc} alt={alt} className="" />
+          <Image src={imgSrc} alt={alt} className="object-cover" />
           <h1 className="text-[#D80000]   text-[26px] font-bold my-6">
             {productName}
           </h1>

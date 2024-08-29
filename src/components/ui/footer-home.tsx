@@ -1,7 +1,7 @@
 import React from 'react';
 import Wrapper from './wrapper';
 
-export default function Footer() {
+export default function FooterHome() {
   return (
     <>
       <footer className="bg-[#D80000] text-white">
@@ -33,14 +33,6 @@ export default function Footer() {
             </div>
           </div>
         </Wrapper>
-        <div className="bg-[#676767] ">
-          <Wrapper>
-            <div className="flex justify-between items-center h-[80px] text-white">
-              <h1>Copyright © 2024 Field Marshal</h1>
-              <h1>Powered by Field Marshal</h1>
-            </div>
-          </Wrapper>
-        </div>
       </footer>
     </>
   );

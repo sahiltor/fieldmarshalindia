@@ -1,29 +1,27 @@
 'use client';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
-import BgImage from '@/components/bg-image';
 import CategoryList from '@/components/ui/category-list';
 import FlourProductImg from '@/components/ui/flour-product-img';
 import FlourTitleTop from '@/components/ui/flour-title-top';
-import StripBg from '@/components/ui/strip-bg';
-import { iraCategoryIcon, iraProducts } from '@/lib/data';
-import { colorStrigBg, iraLogo } from '@/lib/images';
+import { shaktiCategoryIcon, shaktiProductsImg } from '@/lib/data';
+import { shaktiLogo } from '@/lib/images';
 
-export default function IraProduct() {
+export default function ShaktiProduct() {
   return (
     <>
       <div>
         <div>
           <FlourTitleTop
-            imgSrc={iraLogo}
-            alt="Ira Logo"
-            description="IRA  is especially designed by keeping an idea of “Modern Modular design” made by High Quality MDF, Food grade single piece chamber, Stainless Steel Bitter and hopper with capacity of 5 Kgs. Seives (Jali) are made of highly précised S.S for desired fineness of grains, cereals etc. For easy and simple collection of flour there is provision of direct cloth from chamber to container and also a ‘Child Safety Locking system’ has been provided to avoid any kind of accident."
+            imgSrc={shaktiLogo}
+            alt="Shakti Logo"
+            description="As the name Santushti indicates, it is complete fulfillment of the family by grinding capacity of 6.5 Kgs. It’s Euro Edge Cutter, Hopper, Container and Bitter are made of Highly precise food grade Stainless Steel material. It has unique, Gracefully designed mirror finished Front & Top door. A Special Air Cooled Filter and suitable S.S. Seives (Jaali) set is provided for better cooling, fineness of desired Flour, Masala and Cereals etc."
           />
         </div>
         {/* product */}
         <div className="grid lg:grid-cols-3 sm:grid-cols-1 items-center justify-center  my-7">
-          {iraProducts.map((iras, index) => (
-            <FlourProductImg key={index} {...iras} />
+          {shaktiProductsImg.map((shakti, index) => (
+            <FlourProductImg key={index} {...shakti} />
           ))}
         </div>
         {/* catergory */}
@@ -45,23 +43,20 @@ export default function IraProduct() {
               slidesPerView: 3,
             },
             580: {
-              slidesPerView: 3,
+              slidesPerView: 4,
             },
 
-            700: {
-              slidesPerView: 4,
-            },
             1000: {
-              slidesPerView: 4,
+              slidesPerView: 5,
             },
             1024: {
               slidesPerView: 5,
             },
           }}
         >
-          {iraCategoryIcon.map((iraIcon, index) => (
-            <SwiperSlide key={index} className="">
-              <CategoryList {...iraIcon} alt="" />
+          {shaktiCategoryIcon.map((shaktiIcon, index) => (
+            <SwiperSlide key={index}>
+              <CategoryList {...shaktiIcon} alt="" />
             </SwiperSlide>
           ))}
         </Swiper>

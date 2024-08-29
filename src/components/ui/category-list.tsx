@@ -9,7 +9,7 @@ export default function CategoryList({ imgSrc, alt }: CategoryListProps) {
   return (
     <>
       <div>
-        <Image src={imgSrc as string} alt={alt} />
+        <Image src={imgSrc as string} alt={alt} className="object-cover" />
       </div>
     </>
   );
