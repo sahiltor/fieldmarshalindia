@@ -53,8 +53,8 @@ export default function AboutExplain() {
             <CardImg key={index} imgSrc={aboutsImg.imgSrc} />
           ))} */}
 
-          <div className="grid gap-4  lg:grid-cols-2">
-            <div>
+          <div className="grid  grid-cols-2 content-stretch ">
+            <div className="">
               <CardImg imgSrc={image01} />
             </div>
             <div>
