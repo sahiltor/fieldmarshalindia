@@ -1,0 +1,321 @@
+import { title } from 'process';
+import {
+  aaharIcon1,
+  aaharIcon2,
+  aaharIcon3,
+  aaharIcon4,
+  aaharIcon5,
+  aaharProductFlora,
+  aaharProductStrawberry,
+  aaharProductSunflower,
+  agricultureImg,
+  commercialBuildingImg,
+  domesticImg,
+  homeHero,
+  homeHeroSecond,
+  homeHeroThird,
+  image01,
+  image02,
+  image03,
+  image04,
+  industrialImg,
+  iraIcon1,
+  iraIcon2,
+  iraIcon3,
+  iraIcon4,
+  iraIcon5,
+  iraProductFeather,
+  iraProductFruits,
+  iraProductMasala,
+  productImg1,
+  productImg10,
+  productImg2,
+  productImg3,
+  productImg4,
+  productImg5,
+  productImg6,
+  productImg7,
+  productImg8,
+  productImg9,
+  santushtiProductDiamond,
+  santushtiProductEmbroidered,
+  santushtiProductWood,
+  shaktiIcon1,
+  shaktiIcon2,
+  shaktiIcon3,
+  shaktiIcon4,
+  shaktiIcon5,
+  shaktiIcon6,
+  shaktiIcon7,
+  shaktiIcon8,
+  shaktiProductBeans,
+  shaktiProductChandan,
+  shaktiProductStrawnery,
+} from './images';
+
+export const homeSlide = [
+  {
+    imgSrc: homeHero,
+  },
+  {
+    imgSrc: homeHeroSecond,
+  },
+  {
+    imgSrc: homeHeroThird,
+  },
+];
+
+export const aboutImg = [
+  {
+    imgSrc: image01,
+  },
+  {
+    imgSrc: image02,
+  },
+  {
+    imgSrc: image03,
+  },
+  {
+    imgSrc: image04,
+  },
+];
+
+export const fieldapp = [
+  {
+    title: 'Domestic',
+    imgSrc: domesticImg,
+    description: `Fieldmarshal Domestic pumps are Ideal for homes to maintain water pressure in taps and for general applications like watering for gardens and fountains.
+`,
+  },
+  {
+    title: 'Agriculture',
+    imgSrc: agricultureImg,
+    description: `Fieldmarshal pumps easily meet varied agricultural needs, be it drip irrigation, agricutural sprinkler systems or in the watering of fields.
+`,
+  },
+  {
+    title: 'Commercial Building Sector',
+    imgSrc: commercialBuildingImg,
+    description: `Fieldmarshal pumps is a major force in places like hotels, corporates, malls etc. where heavy pressure and boosting is required. It supplies pumps with the latest digital technology for Cooling, Heating, Waste water management etc.
+
+`,
+  },
+  {
+    title: 'Industrial',
+    imgSrc: industrialImg,
+    description: `Fieldmarshal Pumps are used in industries for a variety of purposes that include Cutting & Grinding, fire-fighting, managing sewage, heating & cooling of systems etc.
+
+`,
+  },
+];
+
+export const productImage = [
+  {
+    imgSrc: productImg1,
+    alt: 'Product 1',
+  },
+  {
+    imgSrc: productImg2,
+    alt: 'Product 2',
+  },
+  {
+    imgSrc: productImg3,
+    alt: 'Product 3',
+  },
+  ,
+  {
+    imgSrc: productImg4,
+    alt: 'Product 4',
+  },
+  ,
+  {
+    imgSrc: productImg5,
+    alt: 'Product 5',
+  },
+  ,
+  {
+    imgSrc: productImg6,
+    alt: 'Product 6',
+  },
+
+  ,
+  {
+    imgSrc: productImg7,
+    alt: 'Product 7',
+  },
+  ,
+  {
+    imgSrc: productImg8,
+    alt: 'Product 8',
+  },
+  ,
+  {
+    imgSrc: productImg9,
+    alt: 'Product 9',
+  },
+  ,
+  {
+    imgSrc: productImg10,
+    alt: 'Product 10',
+  },
+];
+
+export const iraProducts = [
+  {
+    productName: 'Masala',
+    imgSrc: iraProductMasala,
+    alt: 'Ira Product Masala',
+  },
+  {
+    productName: 'Fruits',
+    imgSrc: iraProductFruits,
+    alt: 'Ira Product Fruits',
+  },
+  {
+    productName: 'Feather',
+    imgSrc: iraProductFeather,
+    alt: 'Ira Product Feather',
+  },
+];
+
+export const iraCategoryIcon = [
+  {
+    imgSrc: iraIcon1,
+    alt: `iraIcon`,
+  },
+  {
+    imgSrc: iraIcon2,
+    alt: `iraIcon`,
+  },
+  {
+    imgSrc: iraIcon5,
+    alt: `iraIcon`,
+  },
+  ,
+  {
+    imgSrc: iraIcon3,
+    alt: `iraIcon`,
+  },
+  ,
+  {
+    imgSrc: iraIcon4,
+    alt: `iraIcon`,
+  },
+];
+export const aaharProductsImg = [
+  {
+    productName: 'Sunflower',
+    imgSrc: aaharProductSunflower,
+    alt: 'Aahar Product Sunflowe',
+  },
+  {
+    productName: 'Flora',
+    imgSrc: aaharProductFlora,
+    alt: 'Aahar Product Flora',
+  },
+  {
+    productName: 'Grey Strawberry',
+    imgSrc: aaharProductStrawberry,
+    alt: 'Aahar Product Grey Strawberry',
+  },
+];
+
+export const aaharCategoryIcon = [
+  {
+    imgSrc: aaharIcon1,
+    alt: `aaharIcon1`,
+  },
+  {
+    imgSrc: aaharIcon2,
+    alt: `aaharIcon2`,
+  },
+  {
+    imgSrc: aaharIcon3,
+    alt: `aaharIcon3`,
+  },
+  ,
+  {
+    imgSrc: aaharIcon4,
+    alt: `aaharIcon4`,
+  },
+  ,
+  {
+    imgSrc: aaharIcon5,
+    alt: `aaharIcon5`,
+  },
+];
+export const shaktiProductsImg = [
+  {
+    productName: 'Red Strawnerry',
+    imgSrc: shaktiProductStrawnery,
+    alt: 'Shakti Product Red Strawnerry',
+  },
+  {
+    productName: 'Coffee Beans',
+    imgSrc: shaktiProductBeans,
+    alt: 'Aahar Product Coffee Beans',
+  },
+  {
+    productName: 'Chandan',
+    imgSrc: shaktiProductChandan,
+    alt: 'Aahar Product  Chandan',
+  },
+];
+
+export const shaktiCategoryIcon = [
+  {
+    imgSrc: shaktiIcon1,
+    alt: `shaktiIcon1`,
+  },
+  {
+    imgSrc: shaktiIcon2,
+    alt: `shaktiIcon2`,
+  },
+  {
+    imgSrc: shaktiIcon3,
+    alt: `shaktiIcon3`,
+  },
+  {
+    imgSrc: shaktiIcon4,
+    alt: `shaktiIcon8`,
+  },
+  ,
+  {
+    imgSrc: shaktiIcon5,
+    alt: `shaktiIcon4`,
+  },
+  ,
+  {
+    imgSrc: shaktiIcon6,
+    alt: `shaktiIcon5`,
+  },
+  ,
+  {
+    imgSrc: shaktiIcon7,
+    alt: `shaktiIcon6`,
+  },
+  ,
+  {
+    imgSrc: shaktiIcon8,
+    alt: `shaktiIcon7`,
+  },
+  ,
+];
+
+export const santushtiProductsImg = [
+  {
+    productName: 'Wood',
+    imgSrc: santushtiProductWood,
+    alt: 'Santushti Product Wood',
+  },
+  {
+    productName: 'Coffee Beans',
+    imgSrc: santushtiProductDiamond,
+    alt: 'Santushti Product Diamond',
+  },
+  {
+    productName: 'Chandan',
+    imgSrc: santushtiProductEmbroidered,
+    alt: 'Santushti Product Embroidered ',
+  },
+];
