@@ -12,7 +12,8 @@ import {
 } from '@/components/ui/navigation-menu';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
+import { GiHamburgerMenu } from 'react-icons/gi';
 
 const navbar: {
   title: string;
@@ -45,14 +46,22 @@ const navbar: {
 ];
 
 export default function NavBar() {
+  const [isOpen, setIsOpen] = useState(false); // Define setIsOpen here
+
+  //Handles the opening and closing of our nav
+  const handleClick = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <>
-      <NavigationMenu>
+      <NavigationMenu
+        className={`hidden md:flex ${isOpen ? 'block' : 'hidden'} `}
+      >
         <NavigationMenuList>
           {navbar.map(item =>
             item.children ? (
               <NavigationMenuItem key={item.href}>
-                <NavigationMenuTrigger>
+                <NavigationMenuTrigger className="block relative md:flex">
                   <Link
                     href={item.href}
                     className="bg-transparent hover:text-red-500 px-4"
@@ -102,6 +111,12 @@ export default function NavBar() {
           )}
         </NavigationMenuList>
       </NavigationMenu>
+      <button
+        onClick={handleClick}
+        className="md:hidden flex flex-col justify-center items-center"
+      >
+        <GiHamburgerMenu />
+      </button>
     </>
   );
 }

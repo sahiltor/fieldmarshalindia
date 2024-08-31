@@ -1,12 +1,9 @@
 import React from 'react';
 import Wrapper from './wrapper';
 import Logo from './logo';
-import { homeHero, homeHeroSecond, logo } from '@/lib/images';
-import { NavigationMenu } from './navigation-menu';
-import NavBar from '../navbar';
-import BgImage from '../bg-image';
-import Image from 'next/image';
+import { logo } from '@/lib/images';
 import HeroImg from './hero-img';
+import NavBar from '../navbar';
 
 export default function Header() {
   return (
