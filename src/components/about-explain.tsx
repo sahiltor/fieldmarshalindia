@@ -49,21 +49,17 @@ export default function AboutExplain() {
           </Description>
         </div>
         <div className="">
-          {/* {aboutImg.map((aboutsImg, index) => (
-            <CardImg key={index} imgSrc={aboutsImg.imgSrc} />
-          ))} */}
-
-          <div className="grid  grid-cols-2 content-stretch ">
-            <div className="">
+          <div className="columns-1 sm:columns-2  gap-4">
+            <div className="mb-4 break-inside-avoid">
               <CardImg imgSrc={image01} />
             </div>
-            <div>
+            <div className="mb-4 break-inside-avoid">
               <CardImg imgSrc={image02} />
             </div>
-            <div>
+            <div className="mb-4 break-inside-avoid">
               <CardImg imgSrc={image03} />
             </div>
-            <div>
+            <div className="mb-4 break-inside-avoid">
               <CardImg imgSrc={image04} />
             </div>
           </div>

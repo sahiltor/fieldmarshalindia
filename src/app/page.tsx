@@ -7,6 +7,7 @@ import VisionMissionExplain from '../components/vision-mission-explain';
 import ApplicationExplain from '@/components/application-explain';
 import ProductImg from '@/components/ui/product-img';
 import FooterHome from '@/components/ui/footer-home';
+import StripBg from '@/components/ui/strip-bg';
 
 export default function Page() {
   return (
@@ -18,7 +19,7 @@ export default function Page() {
       </Section>
       <Section>
         <Wrapper>
-          <LogoSlider />
+          <LogoSlider className="border-y" />
         </Wrapper>
       </Section>
       <Section className="bg-[#EFEFEF] ">
@@ -26,15 +27,9 @@ export default function Page() {
           <VisionMissionExplain />
         </Wrapper>
       </Section>
-
       <Section>
         <Wrapper>
           <ProductImg />
-        </Wrapper>
-      </Section>
-      <Section>
-        <Wrapper>
-          <ApplicationExplain />
         </Wrapper>
       </Section>
       <FooterHome />

@@ -1,4 +1,3 @@
-import { title } from 'process';
 import {
   aaharIcon1,
   aaharIcon2,
@@ -29,6 +28,12 @@ import {
   iraProductMasala,
   productImg1,
   productImg10,
+  productImg11,
+  productImg12,
+  productImg13,
+  productImg14,
+  productImg15,
+  productImg16,
   productImg2,
   productImg3,
   productImg4,
@@ -112,50 +117,90 @@ export const fieldapp = [
 export const productImage = [
   {
     imgSrc: productImg1,
+    href: '/shallow-well',
     alt: 'Product 1',
   },
   {
     imgSrc: productImg2,
+    href: '/',
     alt: 'Product 2',
   },
   {
     imgSrc: productImg3,
+    href: '/',
     alt: 'Product 3',
   },
   ,
   {
     imgSrc: productImg4,
+    href: '/',
     alt: 'Product 4',
   },
   ,
   {
     imgSrc: productImg5,
+    href: '/',
     alt: 'Product 5',
   },
   ,
   {
     imgSrc: productImg6,
+    href: '/',
     alt: 'Product 6',
   },
 
   ,
   {
     imgSrc: productImg7,
+    href: '/',
     alt: 'Product 7',
   },
   ,
   {
     imgSrc: productImg8,
+    href: '/',
     alt: 'Product 8',
   },
   ,
   {
     imgSrc: productImg9,
+    href: '/',
     alt: 'Product 9',
   },
   ,
   {
     imgSrc: productImg10,
+    href: '/',
+    alt: 'Product 10',
+  },
+  {
+    imgSrc: productImg11,
+    href: '/',
+    alt: 'Product 10',
+  },
+  {
+    imgSrc: productImg12,
+    href: '/',
+    alt: 'Product 10',
+  },
+  {
+    imgSrc: productImg13,
+    href: '/',
+    alt: 'Product 10',
+  },
+  {
+    imgSrc: productImg14,
+    href: '/',
+    alt: 'Product 10',
+  },
+  {
+    imgSrc: productImg15,
+    href: '/',
+    alt: 'Product 10',
+  },
+  {
+    imgSrc: productImg16,
+    href: '/',
     alt: 'Product 10',
   },
 ];

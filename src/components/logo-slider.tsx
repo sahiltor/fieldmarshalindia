@@ -16,11 +16,15 @@ import {
   logoSlide7,
   logoSlide8,
 } from '@/lib/images';
-export default function LogoSlider() {
+import { cn } from '@/lib/utils';
+type LogoSliderProps = {
+  className?: string;
+};
+export default function LogoSlider({ className }: LogoSliderProps) {
   return (
     <>
       <div>
-        <div className="border-y border-[#D80000]">
+        <div className={(cn('border-[#D80000]'), className)}>
           <Swiper
             modules={[Navigation, Autoplay]}
             navigation

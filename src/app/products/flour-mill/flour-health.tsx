@@ -40,17 +40,17 @@ export default function FlourHealth() {
             </div>
             {/* image */}
             <div>
-              <div className="grid gap-4  lg:grid-cols-2">
-                <div>
+              <div className="columns-1 sm:columns-2  gap-4">
+                <div className="mb-4 break-inside-avoid">
                   <CardImg imgSrc={pulse_1} />
                 </div>
-                <div>
+                <div className="mb-4 break-inside-avoid">
                   <CardImg imgSrc={pulse_2} />
                 </div>
-                <div>
+                <div className="mb-4 break-inside-avoid">
                   <CardImg imgSrc={pulse_3} />
                 </div>
-                <div>
+                <div className="mb-4 break-inside-avoid">
                   <CardImg imgSrc={pulse_4} />
                 </div>
               </div>

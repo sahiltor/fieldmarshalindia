@@ -14,8 +14,9 @@ import { cn } from '@/lib/utils';
 import Link from 'next/link';
 import React, { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import NavbarMobile from './ui/navbar-mobile';
 
-const navbar: {
+export const navbar: {
   title: string;
   href: string;
   description?: string;
@@ -46,17 +47,9 @@ const navbar: {
 ];
 
 export default function NavBar() {
-  const [isOpen, setIsOpen] = useState(false); // Define setIsOpen here
-
-  //Handles the opening and closing of our nav
-  const handleClick = () => {
-    setIsOpen(!isOpen);
-  };
   return (
     <>
-      <NavigationMenu
-        className={`hidden md:flex ${isOpen ? 'block' : 'hidden'} `}
-      >
+      <NavigationMenu className="hidden md:flex">
         <NavigationMenuList>
           {navbar.map(item =>
             item.children ? (
@@ -72,23 +65,6 @@ export default function NavBar() {
 
                 <NavigationMenuContent>
                   <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-                    {/* <li className="row-span-3">
-                      <NavigationMenuLink asChild>
-                        <a
-                          className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                          href="/"
-                        >
-                          <div className="mb-2 mt-4 text-lg font-medium">
-                            shadcn/ui
-                          </div>
-                          <p className="text-sm leading-tight text-muted-foreground">
-                            Beautifully designed components built with Radix UI
-                            and Tailwind CSS.
-                          </p>
-                        </a>
-                      </NavigationMenuLink>
-                    </li> */}
-
                     {item.children.map(chil => (
                       <ListItem
                         key={chil.title}
@@ -111,12 +87,7 @@ export default function NavBar() {
           )}
         </NavigationMenuList>
       </NavigationMenu>
-      <button
-        onClick={handleClick}
-        className="md:hidden flex flex-col justify-center items-center"
-      >
-        <GiHamburgerMenu />
-      </button>
+      <NavbarMobile />
     </>
   );
 }

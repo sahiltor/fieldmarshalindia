@@ -6,7 +6,7 @@ export default function FooterHome() {
     <>
       <footer className="bg-[#D80000] text-white">
         <Wrapper>
-          <div className="flex gap-10 justify-center my-4 ">
+          <div className="flex-col flex lg:flex-row gap-10 justify-center my-4 ">
             <div>
               <h2 className="text-xl font-semibold">Address</h2>
               <h1 className="text-xl font-semibold my-4">
@@ -20,15 +20,14 @@ export default function FooterHome() {
               <h2>Toll Free No. 1800-891-0559</h2>
               <h2>CIN No. U31909DL2004PTC125625</h2>
             </div>
-            <div className="">
+            <div>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d439466.7123397583!2d76.386203!3d30.624552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39101a5daf098067%3A0xd143c949a0f1b569!2sField%20Pump%20Pvt.%20Ltd.!5e0!3m2!1sen!2sus!4v1723828737759!5m2!1sen!2sus"
                 width="500"
                 height="300"
                 style={{ border: '0' }}
-                // allowfullscreen=""
                 loading="lazy"
-                // referrerpolicy="no-referrer-when-downgrade"
+                className=""
               ></iframe>
             </div>
           </div>

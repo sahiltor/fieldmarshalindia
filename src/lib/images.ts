@@ -31,6 +31,12 @@ import productImg7 from '../../public/assets/images/product-img/product_07.png';
 import productImg8 from '../../public/assets/images/product-img/product_08.png';
 import productImg9 from '../../public/assets/images/product-img/product_09.png';
 import productImg10 from '../../public/assets/images/product-img/product_10.png';
+import productImg11 from '../../public/assets/images/product-img/product_11.png';
+import productImg12 from '../../public/assets/images/product-img/product_12.png';
+import productImg13 from '../../public/assets/images/product-img/product_13.png';
+import productImg14 from '../../public/assets/images/product-img/product_14.png';
+import productImg15 from '../../public/assets/images/product-img/product_15.png';
+import productImg16 from '../../public/assets/images/product-img/product_16.png';
 import pulse_1 from '../../public/assets/images/product/flour-mill/pulse_01.jpg';
 import pulse_2 from '../../public/assets/images/product/flour-mill/pulse_02.jpg';
 import pulse_3 from '../../public/assets/images/product/flour-mill/pulse_03.jpg';
@@ -115,6 +121,12 @@ export {
   productImg8,
   productImg9,
   productImg10,
+  productImg11,
+  productImg12,
+  productImg13,
+  productImg14,
+  productImg15,
+  productImg16,
   pulse_1,
   pulse_2,
   pulse_3,
