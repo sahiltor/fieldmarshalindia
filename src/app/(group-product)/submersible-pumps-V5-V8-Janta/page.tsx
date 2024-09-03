@@ -6,18 +6,18 @@ import ProductTitle from '@/components/ui/product-title';
 import TableSepci from '@/components/ui/table-sepci';
 import Wrapper from '@/components/ui/wrapper';
 import {
-  submersibleV3AppList,
+  submersibleAppList,
+  submersibleJantaMocData,
+  submersibleJantaSpeciData,
   submersibleV3Feature,
-  submersibleV3MocData,
-  submersibleV3SpeciData,
 } from '@/lib/data-product';
-import { submersibleImgV34 } from '@/lib/images';
+import { submersibleImgJanta } from '@/lib/images';
 
 export default function SubmersiblePumpsJanta() {
   return (
     <>
       <HeroProductImg
-        imgSrc={submersibleImgV34}
+        imgSrc={submersibleImgJanta}
         alt="Submersible Pumps V5-V8 & Janta
 "
       />
@@ -56,7 +56,7 @@ export default function SubmersiblePumpsJanta() {
           {/* application */}
           <div className="mb-5 border border-gray-300">
             <BorderTitle title="Applications" />
-            {submersibleV3AppList.map((items, index) => (
+            {submersibleAppList.map((items, index) => (
               <FeatureList key={index} {...items} />
             ))}
           </div>
@@ -64,14 +64,14 @@ export default function SubmersiblePumpsJanta() {
           {/* spcification */}
           <div className="mb-5">
             <BorderTitle title="Specifications" className="pl-3" />
-            {submersibleV3SpeciData.map((item, index) => (
+            {submersibleJantaSpeciData.map((item, index) => (
               <TableSepci key={index} {...item} />
             ))}
           </div>
           {/* moc */}
           <div className="mb-5">
             <BorderTitle title="MOC" className="pl-4" />
-            {submersibleV3MocData.map((item, index) => (
+            {submersibleJantaMocData.map((item, index) => (
               <TableSepci key={index} {...item} />
             ))}
           </div>

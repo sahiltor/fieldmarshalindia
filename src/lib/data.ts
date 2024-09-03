@@ -1,3 +1,4 @@
+import { title } from 'process';
 import {
   aaharIcon1,
   aaharIcon2,
@@ -33,7 +34,6 @@ import {
   productImg13,
   productImg14,
   productImg15,
-  productImg16,
   productImg2,
   productImg3,
   productImg4,
@@ -116,34 +116,40 @@ export const fieldapp = [
 
 export const productImage = [
   {
+    title: 'Shallow Well Jet Pumps 0.5 HP',
     imgSrc: productImg1,
     href: '/shallow-well-jet-pumps-0.5',
     alt: 'Product 1',
   },
   {
+    title: 'Super Star 1 HP',
     imgSrc: productImg2,
     href: '/super-star-1hp',
     alt: 'Product 2',
   },
   {
+    title: 'Shallow Well Jet Pumps 1 HP',
     imgSrc: productImg3,
     href: 'shallow-well-jet-pumps-1',
     alt: 'Product 3',
   },
   ,
   {
+    title: 'Shallow Well Jet Pumps 1.5 HP',
     imgSrc: productImg4,
     href: '/shallow-well-jet-pumps-1.5-hp',
     alt: 'Product 4',
   },
   ,
   {
+    title: 'Centrifugal Monoblock',
     imgSrc: productImg5,
     href: '/centrifugal-monoblock',
     alt: 'Product 5',
   },
   ,
   {
+    title: 'White Diamond 0.5 HP',
     imgSrc: productImg6,
     href: '/white-diamond-0.5-hp',
     alt: 'Product 6',
@@ -151,57 +157,61 @@ export const productImage = [
 
   ,
   {
+    title: 'Super Flow 1.1 HP',
     imgSrc: productImg7,
     href: '/super-flow-hp-1.1-hp',
     alt: 'Product 7',
   },
   ,
   {
+    title: 'Flow Star 0.5 HP',
     imgSrc: productImg8,
     href: '/',
     alt: 'Product 8',
   },
   ,
   {
+    title: 'Super Star0.5 HP',
     imgSrc: productImg9,
     href: '/super-star-0.5-hp',
     alt: 'Product 9',
   },
   ,
   {
+    title: 'Ecostar 1 HP',
     imgSrc: productImg10,
     href: '/eco-star-1-hp',
     alt: 'Product 10',
   },
   {
+    title: 'Super Star 1 HP',
     imgSrc: productImg11,
     href: '/super-star-hp',
     alt: 'Product 11',
   },
   {
+    title: 'Submersible Pumps V3 - V4',
     imgSrc: productImg12,
     href: '/submersible-pumps-V3-V4',
     alt: 'Product 12',
   },
   {
+    title: 'Submersible Pumps V5-V8 Janta',
     imgSrc: productImg13,
     href: '/submersible-pumps-V5-V8-Janta',
     alt: 'Product 13',
   },
   {
+    title: 'Super Suction/Ten D Pump 0.5 HP to 1.5 HP',
     imgSrc: productImg14,
-    href: '/',
+    href: '/super-suction-ten-d-pump-0.5-to-1.5-hp',
     alt: 'Product 14',
   },
   {
+    title: 'Flow Star 1 HP',
     imgSrc: productImg15,
-    href: '/',
+    href: '/flow-star-1-hp',
     alt: 'Product 15',
-  },
-  {
-    imgSrc: productImg16,
-    href: '/',
-    alt: 'Product 16',
   },
 ];
 

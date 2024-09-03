@@ -6,44 +6,42 @@ import ProductTitle from '@/components/ui/product-title';
 import TableSepci from '@/components/ui/table-sepci';
 import Wrapper from '@/components/ui/wrapper';
 import {
-  submersibleAppList,
-  submersibleV3Feature,
-  submersibleV3MocData,
-  submersibleV3SpeciData,
+  AppList,
+  ecoStarSpeciData,
+  Feature,
+  MocData,
 } from '@/lib/data-product';
-import { submersibleImgV34 } from '@/lib/images';
+import { superSuctionTenImg } from '@/lib/images';
 
-export default function SubmersiblePumpsV3V4() {
+export default function EcoStar() {
   return (
     <>
       <HeroProductImg
-        imgSrc={submersibleImgV34}
-        alt="Submersible Pumps V3-V4</p>
-"
+        imgSrc={superSuctionTenImg}
+        alt="Super Suction/Ten D pump - 0.5 to 1.5 HP"
       />
       <Wrapper>
         <div className="pb-5 pt-5">
-          <ProductTitle title="Submersible Pumps V3-V4">
+          <ProductTitle title="Super Suction/Ten D pump - 0.5 to 1.5 HP">
             <div>
               <p className="mb-3">
-                Submersible Pumps V3-V4 are designed for efficient and reliable
-                water pumping in a variety of applications, including domestic,
-                agricultural, and small industrial uses. Engineered to operate
-                while fully submerged, these pumps are ideal for wells,
-                boreholes, and water supply systems. The V3-V4 models are
-                compact yet powerful, capable of delivering consistent water
-                flow even from deep water sources.
+                The Super Suction /Ten D pump range, available from 0.5 to 1.5
+                HP, offers versatile and powerful water pumping solutions for
+                residential, agricultural, and light industrial applications.
+                Designed to deliver high performance, these pumps excel in
+                providing robust water flow for various tasks including
+                irrigation, water transfer, and boosting water pressure.
               </p>
               <p className="mb-3">
-                Crafted with high-quality, corrosion-resistant stainless steel,
-                these pumps are built to withstand harsh underwater
-                environments, ensuring long-lasting durability and performance.
-                The advanced motor design ensures energy-efficient operation,
-                reducing electricity consumption while providing optimal water
-                output.
+                Featuring advanced suction capabilities, the Super Suction / Ten
+                D pumps efficiently draw water from shallow and moderately deep
+                sources, ensuring reliable performance even in challenging
+                conditions. Constructed with durable, corrosion-resistant
+                materials, these pumps are built to withstand harsh environments
+                and provide long-lasting service.
               </p>
               <p className="mb-3">
-                {`Whether you're irrigating crops, supplying water to a household, or managing a small industrial operation, Submersible Pumps V3-V4 offer reliable and maintenance-free service. Their easy installation and low noise operation make them an excellent choice for anyone seeking a dependable water pumping solution. Trust in the V3-V4 series for all your deep water pumping needs.`}
+                {`The range includes models from 0.5 to 1.5 HP, catering to different water flow requirements and ensuring that you get the right power for your needs. With energy-efficient motors and easy installation, these pumps offer both cost-effectiveness and convenience. Choose the Super Suction / Ten D pump range for dependable, high-performance water management.`}
               </p>
             </div>
           </ProductTitle>
@@ -51,14 +49,14 @@ export default function SubmersiblePumpsV3V4() {
 
           <div className="mb-5 border border-gray-300">
             <BorderTitle title="Salient Features" />
-            {submersibleV3Feature.map((items, index) => (
+            {Feature.map((items, index) => (
               <FeatureList key={index} {...items} />
             ))}
           </div>
           {/* application */}
           <div className="mb-5 border border-gray-300">
             <BorderTitle title="Applications" />
-            {submersibleAppList.map((items, index) => (
+            {AppList.map((items, index) => (
               <FeatureList key={index} {...items} />
             ))}
           </div>
@@ -66,14 +64,14 @@ export default function SubmersiblePumpsV3V4() {
           {/* spcification */}
           <div className="mb-5">
             <BorderTitle title="Specifications" className="pl-3" />
-            {submersibleV3SpeciData.map((item, index) => (
+            {ecoStarSpeciData.map((item, index) => (
               <TableSepci key={index} {...item} />
             ))}
           </div>
           {/* moc */}
           <div className="mb-5">
             <BorderTitle title="MOC" className="pl-4" />
-            {submersibleV3MocData.map((item, index) => (
+            {MocData.map((item, index) => (
               <TableSepci key={index} {...item} />
             ))}
           </div>

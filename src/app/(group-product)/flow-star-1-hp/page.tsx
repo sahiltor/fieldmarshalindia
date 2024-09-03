@@ -6,44 +6,42 @@ import ProductTitle from '@/components/ui/product-title';
 import TableSepci from '@/components/ui/table-sepci';
 import Wrapper from '@/components/ui/wrapper';
 import {
-  submersibleAppList,
-  submersibleV3Feature,
-  submersibleV3MocData,
-  submersibleV3SpeciData,
+  AppList,
+  Feature,
+  flowStarMocData,
+  flowStarSpeciData,
 } from '@/lib/data-product';
-import { submersibleImgV34 } from '@/lib/images';
+import { flowStarImg } from '@/lib/images';
 
-export default function SubmersiblePumpsV3V4() {
+export default function FlowStarHp() {
   return (
     <>
-      <HeroProductImg
-        imgSrc={submersibleImgV34}
-        alt="Submersible Pumps V3-V4</p>
-"
-      />
+      <HeroProductImg imgSrc={flowStarImg} alt="Flow Star - 1 HP" />
       <Wrapper>
         <div className="pb-5 pt-5">
-          <ProductTitle title="Submersible Pumps V3-V4">
+          <ProductTitle title="Flow Star - 1 HP">
             <div>
               <p className="mb-3">
-                Submersible Pumps V3-V4 are designed for efficient and reliable
-                water pumping in a variety of applications, including domestic,
-                agricultural, and small industrial uses. Engineered to operate
-                while fully submerged, these pumps are ideal for wells,
-                boreholes, and water supply systems. The V3-V4 models are
-                compact yet powerful, capable of delivering consistent water
-                flow even from deep water sources.
+                The Flow Star - 1 HP pump is a high-performance solution
+                designed to meet your water management needs with efficiency and
+                reliability. Ideal for residential, agricultural, and light
+                commercial applications, this pump delivers a powerful 1 HP
+                motor that ensures a steady and robust water flow for tasks such
+                as irrigation, water transfer, and pressure boosting.Constructed
+                with high-quality, corrosion-resistant materials, the Flow Star
+                pump is built to last, even in demanding conditions. Its
+                energy-efficient design helps to minimize operational costs
+                while maintaining optimal performance. The compact and
+                user-friendly design allows for easy installation and
+                maintenance, making it suitable for a variety of setups.
               </p>
               <p className="mb-3">
-                Crafted with high-quality, corrosion-resistant stainless steel,
-                these pumps are built to withstand harsh underwater
-                environments, ensuring long-lasting durability and performance.
-                The advanced motor design ensures energy-efficient operation,
-                reducing electricity consumption while providing optimal water
-                output.
-              </p>
-              <p className="mb-3">
-                {`Whether you're irrigating crops, supplying water to a household, or managing a small industrial operation, Submersible Pumps V3-V4 offer reliable and maintenance-free service. Their easy installation and low noise operation make them an excellent choice for anyone seeking a dependable water pumping solution. Trust in the V3-V4 series for all your deep water pumping needs.`}
+                With its smooth and quiet operation, the Flow Star - 1 HP pump
+                provides consistent and dependable water delivery without
+                disrupting your environment. Whether you need to enhance water
+                pressure or manage a water supply system, this pump offers the
+                reliability and efficiency you need for effective water
+                management.
               </p>
             </div>
           </ProductTitle>
@@ -51,14 +49,14 @@ export default function SubmersiblePumpsV3V4() {
 
           <div className="mb-5 border border-gray-300">
             <BorderTitle title="Salient Features" />
-            {submersibleV3Feature.map((items, index) => (
+            {Feature.map((items, index) => (
               <FeatureList key={index} {...items} />
             ))}
           </div>
           {/* application */}
           <div className="mb-5 border border-gray-300">
             <BorderTitle title="Applications" />
-            {submersibleAppList.map((items, index) => (
+            {AppList.map((items, index) => (
               <FeatureList key={index} {...items} />
             ))}
           </div>
@@ -66,14 +64,14 @@ export default function SubmersiblePumpsV3V4() {
           {/* spcification */}
           <div className="mb-5">
             <BorderTitle title="Specifications" className="pl-3" />
-            {submersibleV3SpeciData.map((item, index) => (
+            {flowStarSpeciData.map((item, index) => (
               <TableSepci key={index} {...item} />
             ))}
           </div>
           {/* moc */}
           <div className="mb-5">
             <BorderTitle title="MOC" className="pl-4" />
-            {submersibleV3MocData.map((item, index) => (
+            {flowStarMocData.map((item, index) => (
               <TableSepci key={index} {...item} />
             ))}
           </div>
