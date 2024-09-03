@@ -14,7 +14,7 @@ const LinkButton: FC<LinkButtonProps> = ({ href, children, className }) => {
     <Link
       href={href}
       passHref
-      className={`inline-block px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-600 transition ${className}`}
+      className={`inline-block px-4 py-2 hover:bg-black bg-slate-900 text-white transition ${className}`}
     >
       {children}
     </Link>

@@ -33,7 +33,7 @@ export default function LogoSlider({ className }: LogoSliderProps) {
             slidesPerView={5}
             onSlideChange={() => console.log('slide change')}
             onSwiper={swiper => console.log(swiper)}
-            className="my-10"
+            className=""
           >
             <SwiperSlide>
               <div>

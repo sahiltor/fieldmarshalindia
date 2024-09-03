@@ -86,6 +86,17 @@ import annapurnaIcon1 from '../../public/assets/images/product/flour-mill/annapu
 import annapurnaIcon2 from '../../public/assets/images/product/flour-mill/annapurna/annapurna_icon_02.png';
 import annapurnaIcon3 from '../../public/assets/images/product/flour-mill/annapurna/annapurna_icon_03.png';
 import annapurnaIcon4 from '../../public/assets/images/product/flour-mill/annapurna/annapurna_icon_04.png';
+import shallowWellImg from '../../public/assets/images/product-img/shallow-well-img.jpg';
+import shallowWellOneImg from '../../public/assets/images/product-img/shallow-well-one-img.jpg';
+import shallowWellFiveImg from '../../public/assets/images/product-img/shallow-well-1.5-img.jpg';
+import superStarHpImg from '../../public/assets/images/product-img/super-star-1hp.jpg';
+import monoBlockImg from '../../public/assets/images/product-img/centrifugal-monoblock-img.jpg';
+import whiteDiamondImg from '../../public/assets/images/product-img/white-diamond-img.jpg';
+import superFlowImg from '../../public/assets/images/product-img/super-flow-hp-img.jpg';
+import superStarfiveImg from '../../public/assets/images/product-img/super-star-0.5-hp.jpg';
+import ecoStarImg from '../../public/assets/images/product-img/eco-star-1hp.jpg';
+import StarSuperProImg from '../../public/assets/images/product-img/super-star-product-img.jpg';
+import submersibleImgV34 from '../../public/assets/images/product-img/submersible-pumps-V3-V4-img.jpg';
 
 export {
   logo,
@@ -176,4 +187,15 @@ export {
   annapurnaIcon2,
   annapurnaIcon3,
   annapurnaIcon4,
+  shallowWellImg,
+  superStarHpImg,
+  shallowWellOneImg,
+  shallowWellFiveImg,
+  monoBlockImg,
+  whiteDiamondImg,
+  superFlowImg,
+  superStarfiveImg,
+  ecoStarImg,
+  StarSuperProImg,
+  submersibleImgV34,
 };

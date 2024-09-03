@@ -8,13 +8,15 @@ type ProductTitleProps = {
 export default function ProductTitle({ title, children }: ProductTitleProps) {
   return (
     <>
-      <div>
+      <div className="mb-8">
         <div>
           <div>
-            <h1 className="text-[#D80000] font-bold text-[30px]">{title}</h1>
+            <h1 className="text-[#D80000] font-bold text-[30px] mb-4">
+              {title}
+            </h1>
           </div>
 
-          <div className="text-base">
+          <div className="text-[17px]">
             <div>{children}</div>
           </div>
         </div>

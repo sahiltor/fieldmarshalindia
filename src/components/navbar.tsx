@@ -54,17 +54,17 @@ export default function NavBar() {
           {navbar.map(item =>
             item.children ? (
               <NavigationMenuItem key={item.href}>
-                <NavigationMenuTrigger className="block relative md:flex">
+                <NavigationMenuTrigger className="block font-medium text-base bg-transparent relative md:flex">
                   <Link
                     href={item.href}
-                    className="bg-transparent hover:text-red-500 px-4"
+                    className="bg-transparent   hover:text-red-500  px-4"
                   >
                     {item.title}
                   </Link>
                 </NavigationMenuTrigger>
 
                 <NavigationMenuContent>
-                  <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+                  <ul className="grid gap-3  text-base p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                     {item.children.map(chil => (
                       <ListItem
                         key={chil.title}
@@ -79,7 +79,7 @@ export default function NavBar() {
               <Link
                 key={item.title}
                 href={item.href}
-                className="bg-transparent hover:text-red-500 px-4"
+                className="bg-transparent font-medium text-base hover:text-red-500 px-4"
               >
                 {item.title}
               </Link>

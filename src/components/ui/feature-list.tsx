@@ -4,9 +4,9 @@ type FeatureListProps = {
 
 export default function FeatureList({ item }: FeatureListProps) {
   return (
-    <div className="mb-5">
-      <ul className="list-disc pl-5">
-        <li className="font-medium text-lg">{item}</li>
+    <div className="mb-2 ">
+      <ul className="list-disc pl-10">
+        <li className="font-medium text-[17px]">{item}</li>
       </ul>
     </div>
   );

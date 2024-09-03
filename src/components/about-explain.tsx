@@ -1,11 +1,9 @@
 import React from 'react';
 import Description from './description';
 import CardImg from './card-img';
-import { aboutImg } from '@/lib/data';
 import { image01, image02, image03, image04 } from '@/lib/images';
 import { Button } from './ui/button';
 import LeftTitle from './ui/left-title';
-
 export default function AboutExplain() {
   return (
     <>

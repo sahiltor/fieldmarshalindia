@@ -15,7 +15,7 @@ export default function BorderTitle({
     <div>
       <h1
         className={cn(
-          'bg-[#D80000] pl-6 text-white font-bold text-[20px] mb-2',
+          'bg-[#D80000] pl-5 text-white font-bold text-[20px] mb-2',
           className
         )}
       >

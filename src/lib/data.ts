@@ -117,42 +117,42 @@ export const fieldapp = [
 export const productImage = [
   {
     imgSrc: productImg1,
-    href: '/shallow-well',
+    href: '/shallow-well-jet-pumps-0.5',
     alt: 'Product 1',
   },
   {
     imgSrc: productImg2,
-    href: '/',
+    href: '/super-star-1hp',
     alt: 'Product 2',
   },
   {
     imgSrc: productImg3,
-    href: '/',
+    href: 'shallow-well-jet-pumps-1',
     alt: 'Product 3',
   },
   ,
   {
     imgSrc: productImg4,
-    href: '/',
+    href: '/shallow-well-jet-pumps-1.5-hp',
     alt: 'Product 4',
   },
   ,
   {
     imgSrc: productImg5,
-    href: '/',
+    href: '/centrifugal-monoblock',
     alt: 'Product 5',
   },
   ,
   {
     imgSrc: productImg6,
-    href: '/',
+    href: '/white-diamond-0.5-hp',
     alt: 'Product 6',
   },
 
   ,
   {
     imgSrc: productImg7,
-    href: '/',
+    href: '/super-flow-hp-1.1-hp',
     alt: 'Product 7',
   },
   ,
@@ -164,44 +164,44 @@ export const productImage = [
   ,
   {
     imgSrc: productImg9,
-    href: '/',
+    href: '/super-star-0.5-hp',
     alt: 'Product 9',
   },
   ,
   {
     imgSrc: productImg10,
-    href: '/',
+    href: '/eco-star-1-hp',
     alt: 'Product 10',
   },
   {
     imgSrc: productImg11,
-    href: '/',
-    alt: 'Product 10',
+    href: '/super-star-hp',
+    alt: 'Product 11',
   },
   {
     imgSrc: productImg12,
-    href: '/',
-    alt: 'Product 10',
+    href: '/submersible-pumps-V3-V4',
+    alt: 'Product 12',
   },
   {
     imgSrc: productImg13,
-    href: '/',
-    alt: 'Product 10',
+    href: '/submersible-pumps-V5-V8-Janta',
+    alt: 'Product 13',
   },
   {
     imgSrc: productImg14,
     href: '/',
-    alt: 'Product 10',
+    alt: 'Product 14',
   },
   {
     imgSrc: productImg15,
     href: '/',
-    alt: 'Product 10',
+    alt: 'Product 15',
   },
   {
     imgSrc: productImg16,
     href: '/',
-    alt: 'Product 10',
+    alt: 'Product 16',
   },
 ];
 

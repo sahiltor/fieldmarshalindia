@@ -10,7 +10,7 @@ export default function FlourHealth() {
       <div className="bg-[#feebc9] pt-5 pb-7">
         <Wrapper>
           <div className="flex flex-col sm:flex-row items-center  justify-between gap-8 ">
-            <div className=" flex  ">
+            <div className="flex ">
               <Description>
                 <div>
                   <h1 className="text-[#D80000] font-bold text-[42px] mb-2">
@@ -39,7 +39,7 @@ export default function FlourHealth() {
               </Description>
             </div>
             {/* image */}
-            <div>
+            <div className="">
               <div className="columns-1 sm:columns-2  gap-4">
                 <div className="mb-4 break-inside-avoid">
                   <CardImg imgSrc={pulse_1} />

@@ -9,10 +9,12 @@ import ShaktiProduct from './shakti-product';
 import SantushtiProduct from './santushti-product';
 import GridingCapacity from './griding-capacity';
 import AnnapurnaProduct from './annapurna-product';
+import HeroImg from '@/components/ui/hero-img';
 
 export default function FlourMill() {
   return (
     <>
+      <HeroImg />
       <FlourHealth />
       {/* ira product */}
       <Section className="bg-[#FDD595] -z-50 pt-0 relative">

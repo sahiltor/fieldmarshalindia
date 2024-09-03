@@ -8,14 +8,13 @@ export default function TableSepci({ label, value }: TableSepciProps) {
     <>
       <div>
         <div>
-          <table className="w-full md:w-2/4 border-gray-300">
-            <tbody>
-              <tr className="flex items-center   justify-between">
-                <td className="py-1 font-medium text-lg">{label}</td>
-                <td className="py-1 font-medium text-lg">{value}</td>
-              </tr>
-            </tbody>
-          </table>
+          <div className="w-full border-gray-300">
+            <div className="grid grid-cols-2">
+              <h1 className="py-1 border font-medium pl-4  text-lg">{label}</h1>
+
+              <h1 className="py-1 border font-medium pl-4 text-lg">{value}</h1>
+            </div>
+          </div>
         </div>
       </div>
     </>
