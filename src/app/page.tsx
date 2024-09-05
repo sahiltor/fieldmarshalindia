@@ -4,11 +4,10 @@ import Section from '@/components/ui/section';
 import Wrapper from '@/components/ui/wrapper';
 import React from 'react';
 import VisionMissionExplain from '../components/vision-mission-explain';
-import ApplicationExplain from '@/components/application-explain';
 import ProductImg from '@/components/ui/product-img';
 import FooterHome from '@/components/ui/footer-home';
-import StripBg from '@/components/ui/strip-bg';
 import HeroImg from '@/components/ui/hero-img';
+import ApplicationExplain from '@/components/application-explain';
 
 export default function Page() {
   return (
@@ -32,8 +31,10 @@ export default function Page() {
       <Section>
         <Wrapper>
           <ProductImg />
+          <ApplicationExplain />
         </Wrapper>
       </Section>
+
       <FooterHome />
     </>
   );

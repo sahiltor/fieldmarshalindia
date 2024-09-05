@@ -10,7 +10,7 @@ export default function FooterHome() {
             <div>
               <h2 className="text-xl font-semibold">Address</h2>
               <h1 className="text-xl font-semibold my-4">
-                Field Pump Private Limited
+                Field Pumpsol Private Limited
               </h1>
               <p>
                 (Formally known as Field Pumps Private Limited). Add: Dashmesh
