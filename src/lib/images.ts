@@ -21,16 +21,22 @@ import commercialBuildingImg from '../../public/assets/images/icon/commercial-bu
 import domesticImg from '../../public/assets/images/icon/domestic-img.png';
 import industrialImg from '../../public/assets/images/icon/industrial-img.png';
 import productBg from '../../public/assets/images/product-img/product-bg.png';
-import productImg1 from '../../public/assets/images/product-img/product_01.png';
-import productImg2 from '../../public/assets/images/product-img/product_02.png';
-import productImg3 from '../../public/assets/images/product-img/product_03.png';
-import productImg4 from '../../public/assets/images/product-img/product_04.png';
-import productImg5 from '../../public/assets/images/product-img/product_05.png';
-import productImg6 from '../../public/assets/images/product-img/product_06.png';
-import productImg7 from '../../public/assets/images/product-img/product_07.png';
-import productImg8 from '../../public/assets/images/product-img/product_08.png';
-import productImg9 from '../../public/assets/images/product-img/product_09.png';
-import productImg10 from '../../public/assets/images/product-img/product_10.png';
+import productImg1 from '../../public/assets/images/product-img/product__01.jpg';
+import productImg2 from '../../public/assets/images/product-img/product__02.jpg';
+import productImg3 from '../../public/assets/images/product-img/product__03.jpg';
+import productImg4 from '../../public/assets/images/product-img/product__04.jpg';
+import productImg5 from '../../public/assets/images/product-img/product__05.jpg';
+import productImg6 from '../../public/assets/images/product-img/product__06.jpg';
+import productImg7 from '../../public/assets/images/product-img/product__07.jpg';
+import productImg8 from '../../public/assets/images/product-img/product__08.jpg';
+import productImg9 from '../../public/assets/images/product-img/product__09.jpg';
+import productImg10 from '../../public/assets/images/product-img/product__10.jpg';
+import productImg11 from '../../public/assets/images/product-img/product__11.jpg';
+import productImg12 from '../../public/assets/images/product-img/product__12.jpg';
+import productImg13 from '../../public/assets/images/product-img/product__13.jpg';
+import productImg14 from '../../public/assets/images/product-img/product__14.jpg';
+import productImg15 from '../../public/assets/images/product-img/product__15.jpg';
+import productImg16 from '../../public/assets/images/product-img/product__01.jpg';
 import pulse_1 from '../../public/assets/images/product/flour-mill/pulse_01.jpg';
 import pulse_2 from '../../public/assets/images/product/flour-mill/pulse_02.jpg';
 import pulse_3 from '../../public/assets/images/product/flour-mill/pulse_03.jpg';
@@ -80,6 +86,21 @@ import annapurnaIcon1 from '../../public/assets/images/product/flour-mill/annapu
 import annapurnaIcon2 from '../../public/assets/images/product/flour-mill/annapurna/annapurna_icon_02.png';
 import annapurnaIcon3 from '../../public/assets/images/product/flour-mill/annapurna/annapurna_icon_03.png';
 import annapurnaIcon4 from '../../public/assets/images/product/flour-mill/annapurna/annapurna_icon_04.png';
+import shallowWellImg from '../../public/assets/images/product-img/shallow-well-img.jpg';
+import shallowWellOneImg from '../../public/assets/images/product-img/shallow-well-one-img.jpg';
+import shallowWellFiveImg from '../../public/assets/images/product-img/shallow-well-1.5-img.jpg';
+import superStarHpImg from '../../public/assets/images/product-img/super-star-1hp.jpg';
+import monoBlockImg from '../../public/assets/images/product-img/centrifugal-monoblock-img.jpg';
+import whiteDiamondImg from '../../public/assets/images/product-img/white-diamond-img.jpg';
+import superFlowImg from '../../public/assets/images/product-img/super-flow-hp-img.jpg';
+import superStarfiveImg from '../../public/assets/images/product-img/super-star-0.5-hp.jpg';
+import ecoStarImg from '../../public/assets/images/product-img/eco-star-1hp.jpg';
+import StarSuperProImg from '../../public/assets/images/product-img/super-star-product-img.jpg';
+import submersibleImgV34 from '../../public/assets/images/product-img/submersible-pumps-V3-V4-img.jpg';
+import submersibleImgJanta from '../../public/assets/images/product-img/submersible-pumps-janta-img.jpg';
+import superSuctionTenImg from '../../public/assets/images/product-img/super-suction-ten-img.jpg';
+import flowStarImg from '../../public/assets/images/product-img/flow-star-1-hp-img.jpg';
+import flowStarFiveImg from '../../public/assets/images/product-img/flow-star-0.5-hp-img.jpg';
 
 export {
   logo,
@@ -115,6 +136,12 @@ export {
   productImg8,
   productImg9,
   productImg10,
+  productImg11,
+  productImg12,
+  productImg13,
+  productImg14,
+  productImg15,
+  productImg16,
   pulse_1,
   pulse_2,
   pulse_3,
@@ -164,4 +191,19 @@ export {
   annapurnaIcon2,
   annapurnaIcon3,
   annapurnaIcon4,
+  shallowWellImg,
+  superStarHpImg,
+  shallowWellOneImg,
+  shallowWellFiveImg,
+  monoBlockImg,
+  whiteDiamondImg,
+  superFlowImg,
+  superStarfiveImg,
+  ecoStarImg,
+  StarSuperProImg,
+  submersibleImgV34,
+  submersibleImgJanta,
+  superSuctionTenImg,
+  flowStarImg,
+  flowStarFiveImg,
 };

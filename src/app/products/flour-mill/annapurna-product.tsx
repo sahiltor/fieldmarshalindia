@@ -24,7 +24,7 @@ export default function AnnapurnaProduct() {
           />
         </div>
         <div className="basis-5/12">
-          <div className="border-y-[1px] border-black py-10 flex flex-col leading-8	 gap-8 text-[#333333] ">
+          <div className="border-y-[1px] border-black py-10 flex flex-col leading-8	text-lg gap-8 text-[#333333] ">
             <p>
               The Flour Mill Annapurna is designed by keeping in view the basic
               requirement of the medium and large sized families with 2 in 1
@@ -37,7 +37,7 @@ export default function AnnapurnaProduct() {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-2 basis-1/4">
+        <div className="grid grid-cols-2  gap-5 basis-1/4">
           <CategoryList imgSrc={annapurnaIcon1} alt="annapurnaIcon1" />
           <CategoryList imgSrc={annapurnaIcon2} alt="annapurnaIcon2" />
           <CategoryList imgSrc={annapurnaIcon3} alt="annapurnaIcon3" />

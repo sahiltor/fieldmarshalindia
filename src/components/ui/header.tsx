@@ -1,30 +1,31 @@
 import React from 'react';
-import Wrapper from './wrapper';
 import Logo from './logo';
-import { homeHero, homeHeroSecond, logo } from '@/lib/images';
-import { NavigationMenu } from './navigation-menu';
+import { logo } from '@/lib/images';
 import NavBar from '../navbar';
-import BgImage from '../bg-image';
-import Image from 'next/image';
-import HeroImg from './hero-img';
+import Link from 'next/link';
 
 export default function Header() {
   return (
     <>
-      <header className="relative">
-        {/* <div className="inset-0 bg-black z-40 opacity-10 shadow-lg  w-full fixed h-32"></div> */}
+      <header className="relative ">
+        <>
+          <div className="absolute bg-[#00000012] w-full h-28 z-10"></div>
 
-        <Wrapper>
-          <div className="  duration-0 top-0 z-50">
-            <nav className="flex justify-between items-center py-7 ">
-              <Logo imgSrc={logo} />
+          <div className="absolute duration-0 top-0 left-0 right-0 container z-50">
+            <div>
+              <nav className="flex items-center justify-between py-7 ">
+                <Link href={'/'}>
+                  <Logo imgSrc={logo} />
+                </Link>
 
-              <NavBar />
-            </nav>
+                <div className="">
+                  <NavBar />
+                </div>
+              </nav>
+            </div>
           </div>
-        </Wrapper>
+        </>
       </header>
-      <HeroImg />
     </>
   );
 }

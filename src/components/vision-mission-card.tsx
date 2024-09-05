@@ -24,7 +24,7 @@ export default function VisionMissionCard({
   return (
     <>
       <div>
-        <Card className="border-black border w-[550px] h-full rounded-[50px]">
+        <Card className="border-black border max-w-[550px] h-full  rounded-[50px]">
           <CardContent className="my-4">
             <CardTitle className="text-[#D80000] mb-4 text-center font-bold text-3xl">
               {title}
@@ -36,7 +36,7 @@ export default function VisionMissionCard({
               <div className="text-base leading-8">
                 <div>{description}</div>
                 <br />
-                <p>{paragraph}</p>
+                <div>{paragraph}</div>
               </div>
             </CardDescription>
           </CardContent>

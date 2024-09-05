@@ -1,11 +1,9 @@
 import React from 'react';
 import Description from './description';
 import CardImg from './card-img';
-import { aboutImg } from '@/lib/data';
 import { image01, image02, image03, image04 } from '@/lib/images';
 import { Button } from './ui/button';
 import LeftTitle from './ui/left-title';
-
 export default function AboutExplain() {
   return (
     <>
@@ -49,21 +47,17 @@ export default function AboutExplain() {
           </Description>
         </div>
         <div className="">
-          {/* {aboutImg.map((aboutsImg, index) => (
-            <CardImg key={index} imgSrc={aboutsImg.imgSrc} />
-          ))} */}
-
-          <div className="grid gap-4  lg:grid-cols-2">
-            <div>
+          <div className="columns-1 sm:columns-2  gap-4">
+            <div className="mb-4 break-inside-avoid">
               <CardImg imgSrc={image01} />
             </div>
-            <div>
+            <div className="mb-4 break-inside-avoid">
               <CardImg imgSrc={image02} />
             </div>
-            <div>
+            <div className="mb-4 break-inside-avoid">
               <CardImg imgSrc={image03} />
             </div>
-            <div>
+            <div className="mb-4 break-inside-avoid">
               <CardImg imgSrc={image04} />
             </div>
           </div>

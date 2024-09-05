@@ -6,7 +6,7 @@ import Title from './ui/title';
 export default function VisionMissionExplain() {
   return (
     <>
-      <div className="flex justify-center gap-10 ">
+      <div className=" grid grid-cols-1 content-center lg:grid-cols-2 ">
         <div>
           <VisionMissionCard
             title="Vision"
