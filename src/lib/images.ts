@@ -100,6 +100,7 @@ import submersibleImgV34 from '../../public/assets/images/product-img/submersibl
 import submersibleImgJanta from '../../public/assets/images/product-img/submersible-pumps-janta-img.jpg';
 import superSuctionTenImg from '../../public/assets/images/product-img/super-suction-ten-img.jpg';
 import flowStarImg from '../../public/assets/images/product-img/flow-star-1-hp-img.jpg';
+import flowStarFiveImg from '../../public/assets/images/product-img/flow-star-0.5-hp-img.jpg';
 
 export {
   logo,
@@ -204,4 +205,5 @@ export {
   submersibleImgJanta,
   superSuctionTenImg,
   flowStarImg,
+  flowStarFiveImg,
 };

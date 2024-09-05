@@ -3,14 +3,9 @@ import LogoSlider from '@/components/logo-slider';
 import BorderTitle from '@/components/ui/border-title';
 import FeatureList from '@/components/ui/feature-list';
 import ProductTitle from '@/components/ui/product-title';
-import TableSepci from '@/components/ui/table-sepci';
+import PumpJanta from '@/components/ui/pump-janta';
 import Wrapper from '@/components/ui/wrapper';
-import {
-  submersibleAppList,
-  submersibleJantaMocData,
-  submersibleJantaSpeciData,
-  submersibleV3Feature,
-} from '@/lib/data-product';
+import { submersibleAppList, submersibleV3Feature } from '@/lib/data-product';
 import { submersibleImgJanta } from '@/lib/images';
 
 export default function SubmersiblePumpsJanta() {
@@ -63,18 +58,9 @@ export default function SubmersiblePumpsJanta() {
 
           {/* spcification */}
           <div className="mb-5">
-            <BorderTitle title="Specifications" className="pl-3" />
-            {submersibleJantaSpeciData.map((item, index) => (
-              <TableSepci key={index} {...item} />
-            ))}
+            <PumpJanta />
           </div>
-          {/* moc */}
-          <div className="mb-5">
-            <BorderTitle title="MOC" className="pl-4" />
-            {submersibleJantaMocData.map((item, index) => (
-              <TableSepci key={index} {...item} />
-            ))}
-          </div>
+
           {/* Pumped Liquids */}
           <div className="mb-5">
             <BorderTitle

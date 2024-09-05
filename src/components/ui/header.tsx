@@ -1,9 +1,8 @@
 import React from 'react';
-import Wrapper from './wrapper';
 import Logo from './logo';
 import { logo } from '@/lib/images';
-import HeroImg from './hero-img';
 import NavBar from '../navbar';
+import Link from 'next/link';
 
 export default function Header() {
   return (
@@ -15,7 +14,9 @@ export default function Header() {
           <div className="absolute duration-0 top-0 left-0 right-0 container z-50">
             <div>
               <nav className="flex items-center justify-between py-7 ">
-                <Logo imgSrc={logo} />
+                <Link href={'/'}>
+                  <Logo imgSrc={logo} />
+                </Link>
 
                 <div className="">
                   <NavBar />

@@ -5,22 +5,19 @@ import CardImgProduct from './card-img-product';
 export default function ProductImg() {
   return (
     <>
-      <div className="relative min-h-screen ">
-        {/* Fixed Background Image */}
-
-        {/* Scrollable Content */}
+      <div>
         <div className="">
-          <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4">
+          <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {productImage.map((products, index) => (
-              <div key={index} className="mb-4 break-inside-avoid">
+              <div key={index} className="">
                 {products && (
                   <CardImgProduct {...products} href={products.href || ''} />
                 )}
               </div>
             ))}
           </div>
-          <ApplicationExplain />
         </div>
+        <ApplicationExplain />
       </div>
     </>
   );

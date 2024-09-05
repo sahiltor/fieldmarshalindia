@@ -3,14 +3,9 @@ import LogoSlider from '@/components/logo-slider';
 import BorderTitle from '@/components/ui/border-title';
 import FeatureList from '@/components/ui/feature-list';
 import ProductTitle from '@/components/ui/product-title';
-import TableSepci from '@/components/ui/table-sepci';
+import PumpTable from '@/components/ui/pump-table';
 import Wrapper from '@/components/ui/wrapper';
-import {
-  submersibleAppList,
-  submersibleV3Feature,
-  submersibleV3MocData,
-  submersibleV3SpeciData,
-} from '@/lib/data-product';
+import { submersibleAppList, submersibleV3Feature } from '@/lib/data-product';
 import { submersibleImgV34 } from '@/lib/images';
 
 export default function SubmersiblePumpsV3V4() {
@@ -65,18 +60,9 @@ export default function SubmersiblePumpsV3V4() {
 
           {/* spcification */}
           <div className="mb-5">
-            <BorderTitle title="Specifications" className="pl-3" />
-            {submersibleV3SpeciData.map((item, index) => (
-              <TableSepci key={index} {...item} />
-            ))}
+            <PumpTable />
           </div>
-          {/* moc */}
-          <div className="mb-5">
-            <BorderTitle title="MOC" className="pl-4" />
-            {submersibleV3MocData.map((item, index) => (
-              <TableSepci key={index} {...item} />
-            ))}
-          </div>
+
           {/* Pumped Liquids */}
           <div className="mb-5">
             <BorderTitle

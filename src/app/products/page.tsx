@@ -1,6 +1,5 @@
 import Section from '../../components/ui/section';
 import Wrapper from '@/components/ui/wrapper';
-import Link from 'next/link';
 
 export default function Products() {
   return (
@@ -10,6 +9,7 @@ export default function Products() {
           <div>
             <h1>Prodcut</h1>
           </div>
+          <div className="mt-96"></div>
         </Wrapper>
       </Section>
     </>

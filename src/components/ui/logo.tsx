@@ -10,7 +10,7 @@ export default function Logo({
 }) {
   return (
     <div className={cn('w-[9.375rem] relative overflow-hidden', className)}>
-      <Image alt="logo" src={imgSrc ?? 's'} className="object-cover" />
+      <Image alt="logo" src={imgSrc ?? ''} className="object-cover" />
     </div>
   );
 }

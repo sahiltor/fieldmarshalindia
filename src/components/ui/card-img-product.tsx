@@ -22,7 +22,7 @@ export default function CardImgProduct({
             className="object-cover w-full  "
           />
           <div className="bg-gray-300 py-2 px-4">
-            <h1 className="text-lg text-center ">{title}</h1>
+            <h1 className="text-base text-center ">{title}</h1>
           </div>
         </div>
         <div className="absolute rounded-2xl h-full w-full bg-black/20 flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">

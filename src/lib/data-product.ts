@@ -291,6 +291,19 @@ export const superFlowSpeciData = [
   { label: 'Type of Duty', value: 'S1 (Continuous)' },
   { label: 'Suction', value: '8 meters' },
 ];
+// flow star 0.5 hp
+export const FlowStarSpeciData = [
+  { label: 'Power Range', value: '0.5 HP / 0.37 kW' },
+  { label: 'Voltage Range', value: '110-240V 1Ph 50Hz' },
+  { label: 'Speed', value: '2880rpm' },
+  { label: 'Flow Rate', value: 'Upto 48 LPM' },
+  { label: 'Head Range', value: 'Upto 33 meters' },
+  { label: 'Outlet size in inches', value: '1 inch' },
+  { label: 'Inlet size in inches', value: '1 inch' },
+  { label: 'Direction of Rotation', value: 'CCW, CW-1 Ph' },
+  { label: 'Type of Duty', value: 'S1 (Continuous)' },
+  { label: 'Suction', value: '8 meters' },
+];
 
 // super star 0.5hp
 export const Feature = [
@@ -394,104 +407,16 @@ export const submersibleAppList = [
   { item: 'Industrial and mining application' },
 ];
 
-export const submersibleV3SpeciData = [
-  {
-    label: 'Power Range',
-    value:
-      '3" (72 mm)	4" (100 mm) 0.75 HP to 1 HP	0.5 HP to 5 HP  (0.55 - 0.75 kW)	(0.37 - 3.7 kW)',
-  },
-  {
-    label: 'Voltage Range',
-    value:
-      '160-240V	120-240V 50 Hz, Single Phase,	50 Hz, Single Phase, 350-415 V, 50 Hz, 3 Phase',
-  },
-  {
-    label: 'Motor Type',
-    value: 'Oil Cooled/Water cooled	Oil Cooled/Water cooled',
-  },
-  { label: 'Speed', value: '2880rpm' },
-  { label: 'Flow Rate', value: '85 - 10 LPM	475 - 35 LPM' },
-  { label: 'Total Head', value: '12 to 75 Meters	20 to 300 Meters' },
-  { label: 'Outlet Size', value: '1" - 1.25"	1" - 2.5"' },
-  { label: 'Direction of Rotation', value: 'CCW	CCW, CW-3Ph' },
-  { label: 'Maximum Outer Diameter', value: '80 mm	105 mm' },
-  { label: 'Type of Duty', value: 'S1 (Continious)	S1 (Continious)' },
-];
-
-export const submersibleV3MocData = [
-  { label: 'PART NAME', value: '3" (72 mm)	4" (100 mm)' },
-  { label: 'Stator Shell', value: 'Stainless Steel	Stainless Steel' },
-  { label: 'Seal', value: 'Nitrile Rubber	Nitrile Rubber' },
-  {
-    label: 'Thrust Pad/Bearing',
-    value: 'Graphite Carbon/	Graphite Carbon/ Bearing Steel	Bearing Steel',
-  },
-  { label: 'Motor Base', value: 'Cast Iron	Cast Iron' },
-  { label: 'Shaft', value: 'SS 410	SS 410/EN-9' },
-  { label: 'Impeller', value: 'Noryl	Noryl' },
-];
-
 // Submersible Pumps Janta
-export const submersibleJantaSpeciData = [
-  {
-    label: 'Power Range',
-    value: '5" (125mm)	6" (150mm)	7" (175mm)	Janta (175-200mm)	8" (200mm)',
-  },
-  {
-    label: 'Version',
-    value:
-      '120-240V, 50 Hz, 1 Phase	350-415 V, 50 Hz, 3 Phase350-415V, 50 Hz, 3 Phase',
-  },
-  {
-    label: 'Motor Type',
-    value: 'Water cooled',
-  },
-  { label: 'Speed', value: '2880rpm' },
-  {
-    label: 'Flow Rate',
-    value: '350-50 LPM	1650-300 LPM 2000-450 LPM 3200-525 LPM	3400-1050 LPM',
-  },
-  {
-    label: 'Total Head',
-    value:
-      '9 to 60 Mtrs.	30 to 210 Mtrs.	18 to 190 Mtrs. 21 to 146 Mtrs. 74 to 276 Mtrs',
-  },
-  {
-    label: 'Outlet Size',
-    value: '2" - 2.5"	2.5" - 3"	3" - 4"	4" 4"',
-  },
-  { label: 'Direction of Rotation', value: 'CCW, CW-3Ph' },
-  { label: 'Maximum Outer Diameter', value: '125 mm	 150 mm	175 mm	200 mm	200 mm' },
-  { label: 'Type of Duty', value: 'S1 (Continious)' },
-];
 
-export const submersibleJantaMocData = [
-  {
-    label: 'PART NAME',
-    value: '5" (125mm)	6" (150mm)	7" (175mm)	Janta (175-200mm)	8" (200mm)',
-  },
-  {
-    label: 'Stator Shell',
-    value: 'Stainless Steel	Stainless Steel	Stainless Steel',
-  },
-  {
-    label: 'Stainless Steel',
-    value: 'Stainless Steel',
-  },
-  { label: 'Seal', value: 'Nitrile Rubber	Nitrile Rubber	Nitrile Rubber	Nitrile' },
-  {
-    label: 'Rubber',
-    value: 'Nitrile Rubber',
-  },
-  {
-    label: 'Thrust Pad/Bearing',
-    value: 'Graphite Carbon	Graphite Carbon	Graphite Carbon',
-  },
-  { label: 'Graphite Carbon', value: 'Graphite Carbon' },
-  {
-    label: 'Motor Base',
-    value: 'Cast Iron	Cast Iron	Cast Iron	Cast Iron	Cast Iron',
-  },
+export const submersibleJantaAppList = [
+  { item: 'Municipal water supply' },
+  { item: 'Rural water supply' },
+  { item: 'Irrigation' },
+  { item: 'Sprinkler System' },
+  { item: 'Pressure boosting units and fire fighting system' },
+  { item: 'Industrial and mining application' },
+  { item: 'Ponds and Gardens' },
 ];
 
 //Super Suction/Ten D pump - 0.5 to 1.5 HP
