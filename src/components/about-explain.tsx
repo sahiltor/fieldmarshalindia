@@ -13,13 +13,13 @@ export default function AboutExplain() {
             <LeftTitle title="About Us" />
             <div className="flex gap-4 flex-col my-4 text-base">
               <p>
-                The Thukral Group of Companies FIELDMARSHAL Punjab was
-                established in 1973 in a small Historic town of India, Sirhind
-                (Punjab) by Late Sh. Ganga Ram Thukral with the active
-                assistance of his son Sh. Sushil Thukral.
+                The Thukral Group of Companies Field Pumpsol Private Limited
+                Punjab was established in 1973 in a small Historic town of
+                India, Sirhind (Punjab) by Late Sh. Ganga Ram Thukral with the
+                active assistance of his son Sh. Sushil Thukral.
               </p>
               <p>
-                The journey of FIELDMARSHAL first began with the establishment
+                The journey of Field Pumpsol first began with the establishment
                 of the manufacturing unit of Agriculture Belt Driven and Direct
                 Coupled Centrifugal Water Pumps and its parts in 1973.
                 Thereafter, in 1980, the Company also started manufacturing
