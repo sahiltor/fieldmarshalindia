@@ -2,47 +2,36 @@ import React from 'react';
 import Description from './description';
 import CardImg from './card-img';
 import { image01, image02, image03, image04 } from '@/lib/images';
-import { Button } from './ui/button';
 import LeftTitle from './ui/left-title';
 export default function AboutExplain() {
   return (
     <>
-      <div className="flex flex-col sm:flex-row items-center  justify-between gap-8">
-        <div className="w-1/2 flex ">
+      <div className="flex flex-col md:flex-row items-center  justify-between gap-8">
+        <div className="sm:w-1/2 flex  ">
           <Description>
             <LeftTitle title="About Us" />
             <div className="flex gap-4 flex-col my-4 text-base">
               <p>
-                The Thukral Group of Companies Field Pumpsol Private Limited
-                Punjab was established in 1973 in a small Historic town of
-                India, Sirhind (Punjab) by Late Sh. Ganga Ram Thukral with the
-                active assistance of his son Sh. Sushil Thukral.
+                Established in 1973 in the historic town of Sirhind, Punjab, The
+                Thukral Group of Companies, Field Pumpsol Private Limited, was
+                founded by Late Sh. Ganga Ram Thukral, with key support from his
+                son, Sh. Sushil Thukral.
               </p>
               <p>
-                The journey of Field Pumpsol first began with the establishment
-                of the manufacturing unit of Agriculture Belt Driven and Direct
-                Coupled Centrifugal Water Pumps and its parts in 1973.
-                Thereafter, in 1980, the Company also started manufacturing
-                Flour Mills and its parts.
+                Field Pumpsol’s journey began with the production of Agriculture
+                Belt Driven and Direct Coupled Centrifugal Water Pumps and their
+                parts. By 1980, the company expanded into manufacturing Flour
+                Mills and their components.
               </p>
               <p>
-                In 1985, the Company entered into global market with its
-                international standard product range under the trademark
-                FIELDMARSHAL. In 1989, the company received its first
-                Recognition by the Govt. of India by way of IS:6595
-                Certification. In 1997, the company entered into the field of
-                Electricals and the manufacturing unit for Domestic Submersible
-                Water Pumpsets was setup. Thereafter, in 2002 the company
-                started manufacturing Agriculture Submersible Water Pumpsets.
+                In 1985, the company made its mark globally, introducing its
+                FIELDMARSHAL-branded products that meet international standards.
+                By 1989, it received IS:6595 Certification from the Government
+                of India. The company diversified in 1997 by venturing into
+                Electricals, establishing a manufacturing unit for Domestic
+                Submersible Water Pumpsets. This was followed by the production
+                of Agriculture Submersible Water Pumpsets in 2002.
               </p>
-            </div>
-            <div>
-              <Button
-                variant="outline"
-                className="text-white text-lg bg-[#D80000] px-9 py-6 hover:bg-[#D80000] hover:text-white"
-              >
-                Read More...
-              </Button>
             </div>
           </Description>
         </div>
@@ -51,11 +40,10 @@ export default function AboutExplain() {
             <div className="mb-4 break-inside-avoid">
               <CardImg imgSrc={image01} />
             </div>
+            <div className="mb-4 break-inside-avoid"></div>
+            <CardImg imgSrc={image03} />
             <div className="mb-4 break-inside-avoid">
               <CardImg imgSrc={image02} />
-            </div>
-            <div className="mb-4 break-inside-avoid">
-              <CardImg imgSrc={image03} />
             </div>
             <div className="mb-4 break-inside-avoid">
               <CardImg imgSrc={image04} />

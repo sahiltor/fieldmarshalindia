@@ -8,7 +8,7 @@ export default function ApplicationExplain() {
   return (
     <>
       <div className="mt-6">
-        <div>
+        <div className="text-center">
           <Title
             title="Our Applications
 "

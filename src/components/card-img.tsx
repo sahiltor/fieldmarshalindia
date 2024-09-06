@@ -7,11 +7,11 @@ type CardImgProps = {
 export default function CardImg({ imgSrc }: CardImgProps) {
   return (
     <>
-      <div className="cardShadow shadow-xl rounded-2xl">
+      <div className="cardShadow shadow-xl w-full rounded-2xl">
         <Image
           src={imgSrc as string}
           alt=""
-          className="object-cover w-full rounded-2xl "
+          className="object-cover  rounded-2xl "
         />
       </div>
     </>

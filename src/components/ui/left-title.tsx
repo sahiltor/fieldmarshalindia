@@ -5,9 +5,11 @@ type LeftTitleProps = {
 
 export default function LeftTitle({ title }: LeftTitleProps) {
   return (
-    <div>
-      <h1 className="text-[#D80000] font-bold text-3xl">{title}</h1>
-      <div className="border w-24 border-[#D80000]"></div>
+    <div className=" sm:flex sm:flex-col  sm:text-left content-center	 mx-auto">
+      <h1 className="text-[#D80000] sm:text-left items-center font-bold text-3xl">
+        {title}
+      </h1>
+      <div className="border-b text-center w-24 sm:text-left items-center border-[#D80000]"></div>
     </div>
   );
 }
