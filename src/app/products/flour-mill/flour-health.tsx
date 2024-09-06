@@ -10,10 +10,10 @@ export default function FlourHealth() {
       <div className="bg-[#feebc9] pt-5 pb-7">
         <Wrapper>
           <div className="flex flex-col sm:flex-row items-center  justify-between gap-8 ">
-            <div className="flex ">
+            <div className="">
               <Description>
                 <div>
-                  <h1 className="text-[#D80000] font-bold text-[42px] mb-2">
+                  <h1 className="text-[#D80000] font-bold text-4xl mb-2">
                     Flour that Gives you 3H Health | Hygiene | Happiness
                   </h1>
                   <div className="border w-80 border-[#D80000]"></div>

@@ -5,6 +5,9 @@ import {
   aaharIcon3,
   aaharIcon4,
   aaharIcon5,
+  aaharIcon6,
+  aaharIcon7,
+  aaharIcon8,
   aaharProductFlora,
   aaharProductStrawberry,
   aaharProductSunflower,
@@ -288,14 +291,26 @@ export const aaharCategoryIcon = [
     imgSrc: aaharIcon3,
     alt: `aaharIcon3`,
   },
-  ,
+  {
+    imgSrc: aaharIcon8,
+    alt: `aaharIcon5`,
+  },
   {
     imgSrc: aaharIcon4,
     alt: `aaharIcon4`,
   },
+
   ,
   {
     imgSrc: aaharIcon5,
+    alt: `aaharIcon5`,
+  },
+  {
+    imgSrc: aaharIcon6,
+    alt: `aaharIcon5`,
+  },
+  {
+    imgSrc: aaharIcon7,
     alt: `aaharIcon5`,
   },
 ];

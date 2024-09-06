@@ -1,13 +1,17 @@
 'use client';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
-import BgImage from '@/components/bg-image';
-import CategoryList from '@/components/ui/category-list';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/autoplay';
+import Image from 'next/image';
+import { iraIcon1, iraIcon2, iraIcon3, iraIcon4, iraIcon5 } from '@/lib/images';
+
 import FlourProductImg from '@/components/ui/flour-product-img';
 import FlourTitleTop from '@/components/ui/flour-title-top';
-import StripBg from '@/components/ui/strip-bg';
 import { iraCategoryIcon, iraProducts } from '@/lib/data';
-import { colorStrigBg, iraLogo } from '@/lib/images';
+import { iraLogo } from '@/lib/images';
+import CategoryList from '@/components/ui/category-list';
 
 export default function IraProduct() {
   return (
@@ -27,44 +31,43 @@ export default function IraProduct() {
           ))}
         </div>
         {/* catergory */}
+      </div>
+      <div>
+        <div>
+          <Swiper
+            modules={[Navigation, Autoplay]}
+            navigation
+            autoplay
+            spaceBetween={0}
+            slidesPerView={5}
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={swiper => console.log(swiper)}
+            breakpoints={{
+              0: {
+                slidesPerView: 2,
+              },
+              520: {
+                slidesPerView: 3,
+              },
+              580: {
+                slidesPerView: 4,
+              },
 
-        <Swiper
-          modules={[Navigation, Autoplay]}
-          navigation
-          autoplay
-          spaceBetween={0}
-          slidesPerView={5}
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={swiper => console.log(swiper)}
-          className=""
-          breakpoints={{
-            0: {
-              slidesPerView: 2,
-            },
-            520: {
-              slidesPerView: 3,
-            },
-            580: {
-              slidesPerView: 3,
-            },
-
-            700: {
-              slidesPerView: 4,
-            },
-            1000: {
-              slidesPerView: 4,
-            },
-            1024: {
-              slidesPerView: 5,
-            },
-          }}
-        >
-          {iraCategoryIcon.map((iraIcon, index) => (
-            <SwiperSlide key={index} className="">
-              <CategoryList {...iraIcon} alt="" />
-            </SwiperSlide>
-          ))}
-        </Swiper>
+              1000: {
+                slidesPerView: 4,
+              },
+              1024: {
+                slidesPerView: 5,
+              },
+            }}
+          >
+            {iraCategoryIcon.map((iras, index) => (
+              <SwiperSlide key={index}>
+                <CategoryList {...iras} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
       </div>
     </>
   );

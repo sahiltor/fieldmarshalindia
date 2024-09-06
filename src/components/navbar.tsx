@@ -32,7 +32,7 @@ export const navbar: {
       },
       {
         title: 'Pump & Motors',
-        href: '/products/pump-motors',
+        href: '/products/pumps-motors',
       },
     ],
   },
