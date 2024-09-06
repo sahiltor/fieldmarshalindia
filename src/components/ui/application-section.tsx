@@ -14,12 +14,17 @@ export default function ApplicationSection({
     <div>
       <div>
         <div className="my-4">
-          <div className="flex gap-4 items-start">
+          <div className=" flex flex-col  sm:flex-row gap-4 items-center">
             <Image src={imgSrc} alt="" className="object-cover" />
 
-            <div>
-              <h1 className=" mb-3 font-bold text-3xl">{title}</h1>
-              <div className="leading-7 font-semibold">{description}</div>
+            <div className="">
+              <h1 className="sm:text-left text-center mb-3 font-bold text-3xl">
+                {title}
+              </h1>
+
+              <div className="sm:text-left text-center leading-7 font-semibold">
+                {description}
+              </div>
             </div>
           </div>
         </div>
