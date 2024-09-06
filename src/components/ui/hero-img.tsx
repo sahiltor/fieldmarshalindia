@@ -1,7 +1,6 @@
 'use client';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
-
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
@@ -11,8 +10,7 @@ import { homeHero, homeHeroSecond, homeHeroThird } from '@/lib/images';
 export default function HeroImg() {
   return (
     <>
-      <div className="w-full h-full relative">
-        {' '}
+      <div className="">
         <Swiper
           modules={[Navigation, Autoplay]}
           navigation

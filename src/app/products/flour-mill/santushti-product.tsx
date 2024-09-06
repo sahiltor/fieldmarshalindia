@@ -27,41 +27,43 @@ export default function SantushtiProduct() {
           ))}
         </div>
         {/* catergory */}
+      </div>
+      <div>
+        <div>
+          <Swiper
+            modules={[Navigation, Autoplay]}
+            navigation
+            autoplay
+            spaceBetween={0}
+            slidesPerView={5}
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={swiper => console.log(swiper)}
+            breakpoints={{
+              0: {
+                slidesPerView: 2,
+              },
+              520: {
+                slidesPerView: 3,
+              },
+              580: {
+                slidesPerView: 4,
+              },
 
-        <Swiper
-          modules={[Navigation, Autoplay]}
-          navigation
-          autoplay
-          spaceBetween={0}
-          slidesPerView={5}
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={swiper => console.log(swiper)}
-          className=""
-          breakpoints={{
-            0: {
-              slidesPerView: 2,
-            },
-            520: {
-              slidesPerView: 3,
-            },
-            580: {
-              slidesPerView: 4,
-            },
-
-            1000: {
-              slidesPerView: 5,
-            },
-            1024: {
-              slidesPerView: 5,
-            },
-          }}
-        >
-          {shaktiCategoryIcon.map((shaktiIcon, index) => (
-            <SwiperSlide key={index}>
-              <CategoryList {...shaktiIcon} alt="" />
-            </SwiperSlide>
-          ))}
-        </Swiper>
+              1000: {
+                slidesPerView: 5,
+              },
+              1024: {
+                slidesPerView: 7,
+              },
+            }}
+          >
+            {shaktiCategoryIcon.map((iras, index) => (
+              <SwiperSlide key={index}>
+                <CategoryList {...iras} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
       </div>
     </>
   );
